@@ -28,7 +28,7 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Dropout(0.2),
     # Initializes BaseRandomLayer. Googled it, have no idea what this does
   tf.keras.layers.Dense(10)
-    # Now we change the output array shape again?
+    # Now we change the output array shape again
 ])
 
 predictions = model(x_train[:1]).numpy()
